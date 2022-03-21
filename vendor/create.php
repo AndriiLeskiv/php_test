@@ -15,4 +15,4 @@ $online_search = $_POST['online_search'];
 mysqli_query($connect, "insert into information(profession, firstname, lastname, email, password, confirm, school, currentgrade, date, online_search)
 value ('$profession', '$firstname', '$lastname', '$email', '$password', '$confirm', '$school', '$currentgrade', '$date', '$online_search')");
 
-header('Location: ../main.php');
+header('Location: ../index.php');

@@ -73,7 +73,7 @@
         </div>
     </div>
     <div class="bottom-text">
-        <a href="#">Create a free account to access your full list of scholarships and to see more details
-            <img src="static/img/Arrow.svg" alt=""></a>
+        <a href="main.php">Create a free account to access your full list of scholarships and to see more details
+            <img src="static/img/Arrow.svg" alt="Arrow"></a>
     </div>
 </div>

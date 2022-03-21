@@ -55,15 +55,13 @@
             <td><?= $info[8]?></td>
             <td><?= $info[9]?></td>
             <td><?= $info[10]?></td>
-            <td><a href="info.php?id=<?= $info[0] ?>">View</a></td>
-            <td><a href="update.php?id=<?= $info[0] ?>">Update</a></td>
-            <td><a style="color: red" href="vendor/delete.php?id=<?= $info[0] ?>">Delete</a></td>
+            <td><a href="info.php?id=<?=$info[0] ?>">View</a></td>
+            <td><a href="update.php?id=<?=$info[0] ?>">Update</a></td>
+            <td><a style="color: red" href="vendor/delete.php?id=<?=$info[0] ?>">Delete</a></td>
         </tr>
     <?php } ?>
 </table>
-
 <a href="index.php">Повернутися на загальну сторніку</a>
-
 </body>
 </html>
 

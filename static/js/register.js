@@ -99,7 +99,7 @@ $(() => {
 
         submitHandler: function (form) {
             $.ajax({
-                url: 'main.php',
+                url: 'vendor/create.php',
                 method: 'post',
                 dataType: 'html',
                 data: $("#formValidation").serialize(),
