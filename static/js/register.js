@@ -1,6 +1,8 @@
 $(() => {
     $( function() {
-        $("#datepicker").datepicker();
+        $("#datepicker").datepicker({
+            dateFormat: 'yy-mm-dd'
+        });
     } );
 
     $('.show_form_validation').on('click', function () {
@@ -97,7 +99,7 @@ $(() => {
 
         submitHandler: function (form) {
             $.ajax({
-                url: 'create.php',
+                url: 'main.php',
                 method: 'post',
                 dataType: 'html',
                 data: $("#formValidation").serialize(),
