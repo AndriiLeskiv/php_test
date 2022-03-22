@@ -104,8 +104,6 @@ $(() => {
                 dataType: 'html',
                 data: $("#formValidation").serialize(),
                 success: function (data) {
-                    alert(data);
-                    console.log(data);
                     $(".modal_show").hide();
                     // if (data.status === "ok") {
                     //     let type = 'success';
